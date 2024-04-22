@@ -79,7 +79,7 @@ int main(void)
     display(DECODE_MODE, 0b11111111); // zapneme znakovou sadu na všech cifrách
     display(SCAN_LIMIT, 7); // chceme zapnout všechny cifry
     display(INTENSITY, 1);
-    display(DISPLAY_TEST, DISPLAY_TEST_OFF);
+    display(DISPLAY_TEST,DISPLAY_TEST_OFF);
     display(SHUTDOWN, SHUTDOWN_ON);
     display(DIGIT0, 0xF);
     display(DIGIT1, 0xF);
